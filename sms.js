@@ -10,7 +10,7 @@ let body = "This" + " is a test message";
 exports.send = function(message, callback){
 	console.log(message)
 	client.messages.create({
-	    to: "+13173978857",
+	    to: "+13174472968",
 	    from: "+13173336853 ",
 	    body: message.text,
 	}, function(err, message) {
